@@ -1,0 +1,74 @@
+.section-projects{
+    height: 100vh;
+}
+
+.section-projects-content{
+    margin-left: 235px;
+}
+
+
+.section-project-texts{
+    display: flex;
+    gap: 90px;
+   align-items: end;
+}
+
+.section-project-title{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: var(--primary);
+
+
+}
+
+.section-project-subtitle{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+
+
+}
+.section-projects-btn{
+    margin-top: 95px;
+}
+
+.projects-btn{
+    /* Button */
+    margin-right: 18px;
+    border-radius: 20px;
+    height: 65px;
+    background-color: var(--white-dark);
+
+    color: var(--primary);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    line-height: 28px;
+    padding: 0px 14px;
+    transition: 0.4s;
+    border: none;
+
+}
+.projects-btn:hover{
+    background-color: rgb(182, 180, 180);
+}
+
+.projects-btn.active {
+    background-color: var(--secundary);
+    color: var(--white-main);
+    /* Outros estilos que você deseja aplicar quando o botão estiver ativo */
+}
+.projects-btn.active:hover{
+    background-color: #161b1f;
+}
+
+.projects-images{
+    margin-top: 55px;
+}
