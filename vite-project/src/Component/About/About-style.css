@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    margin-bottom: 80px;
 }
 /* Agora, dentro da classe about-content, defino também que os itens vão se organizar em coluna */
 .about-content{
