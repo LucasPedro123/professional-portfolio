@@ -4,6 +4,7 @@ import  './Assets/global.css'
 import Main from "./Component/Main/Main-component";
 import About from "./Component/About/About-component";
 import Projects from "./Component/Projects/Projects-component";
+import MyTechs from "./Component/MyTechs/MyTechs-component";
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <Main />
       <About />
-      <Projects/>
+      <Projects />
+      <MyTechs/>
     </>
   )
 }
