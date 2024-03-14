@@ -22,7 +22,7 @@
 <!-- Visão Geral -->
 ## 🌟 Visão Geral
 
-Este portfólio é o lugar onde as habilidades dos <strong>perfis dos profissionais</strong> brilham! Aqui você encontrará informações sobre seus projetos, suas habilidades e como entrar em contato.
+Este portfólio é o lugar onde as habilidades dos <strong>perfis profissionais</strong> brilham! Aqui você encontrará informações sobre seus projetos, suas habilidades e como entrar em contato.
 
 <!-- Tecnologias Utilizadas -->
 ## 🛠️ Tecnologias Utilizadas
