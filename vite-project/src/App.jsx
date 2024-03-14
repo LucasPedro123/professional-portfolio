@@ -5,6 +5,7 @@ import Main from "./Component/Main/Main-component";
 import About from "./Component/About/About-component";
 import Projects from "./Component/Projects/Projects-component";
 import MyTechs from "./Component/MyTechs/MyTechs-component";
+import Experience from "./Component/Experience/Experience-component";
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Main />
       <About />
       <Projects />
-      <MyTechs/>
+      <MyTechs />
+      <Experience/>
     </>
   )
 }

@@ -5,7 +5,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 /* Agora, dentro da classe about-content, defino também que os itens vão se organizar em coluna */
 .about-content{
@@ -85,4 +85,44 @@ li > div{
     display: flex;
     justify-content: center;
     
+}
+
+@media screen and (max-width: 768px){
+    .about-title{
+        font-weight: 900;
+        font-size: 47px;
+        line-height: 55px;
+    }
+    .about-text{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        text-align: center;
+    }
+    .about-content-skills{
+        margin-top: 40px;
+    }
+    .about-content img{
+        width: 100%;
+        max-width: 180px;
+    }
+    .about-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li{
+            width: 160px;
+            height: 65px;
+            margin: 10px;
+            p{
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 33px;
+            }
+        }
+        
+    }
 }
