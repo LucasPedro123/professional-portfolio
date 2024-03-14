@@ -1,0 +1,128 @@
+
+/* Definindo que os itens vão se organizar em coluna */
+.section-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+/* Agora, dentro da classe about-content, defino também que os itens vão se organizar em coluna */
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Cores e estilos da tag h1 que compõe o nome */
+.about-title{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: var(--primary);
+}
+span{
+    color: var(--secundary);
+}
+.about-text{
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'onum' on;
+
+    color: var(--primary);
+
+}
+
+
+.about-title-skills{
+    text-align: center;
+}
+
+.about-content-skills{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.about-title-skills{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    color: var(--primary);
+
+
+}
+
+.about-skills{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, 210px));
+    li{
+        p{
+            text-align: center;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 42px;
+            padding-bottom: 16px;
+            color: #445964;
+
+
+        }
+        list-style: none;
+        width: 210px;
+        height: 100px;
+    }
+}
+
+li > div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 768px){
+    .about-title{
+        font-weight: 900;
+        font-size: 47px;
+        line-height: 55px;
+    }
+    .about-text{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        text-align: center;
+    }
+    .about-content-skills{
+        margin-top: 40px;
+    }
+    .about-content img{
+        width: 100%;
+        max-width: 180px;
+    }
+    .about-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li{
+            width: 160px;
+            height: 65px;
+            margin: 10px;
+            p{
+                font-weight: 800;
+                font-size: 28px;
+                line-height: 33px;
+            }
+        }
+        
+    }
+}
