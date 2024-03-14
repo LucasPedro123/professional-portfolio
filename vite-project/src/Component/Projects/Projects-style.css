@@ -1,5 +1,5 @@
 .section-projects{
-    height: 100vh;
+    height: 100%;
 }
 
 .section-projects-content{
@@ -71,4 +71,33 @@
 
 .projects-images{
     margin-top: 55px;
+}
+
+
+@media screen and (max-width: 768px){
+   .section-projects{
+        height: 100%;
+   }
+    .section-projects-content{
+        margin-top: 10%;
+        margin-left: 0px;
+    }
+
+    .section-project-texts{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;   
+    }
+    .section-projects-btn{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+    .projects-btn{
+        /* Button */
+        font-size: 13px;
+        height: 40px;
+        padding: 0px 10px;
+    }
 }

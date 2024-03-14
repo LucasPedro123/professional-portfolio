@@ -1,5 +1,6 @@
 .section-mytechs{
-    height: 100vh;
+    margin-top: 80px;
+    height: 100%;
 }
 
 .section-mytechs > div{
@@ -9,7 +10,7 @@
 }
 
 .mytechs-title{
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 
     font-weight: 900;
     font-size: 64px;
@@ -61,11 +62,29 @@
 }
 
 .mytech-content{
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 
 
 
-
+@media screen and (max-width: 768px){
+    .mytechs-title{
+        margin-bottom: 60px;
+    }
+    .section-mytechs p{
+        margin-bottom: 16px;
+    }
+    .mytechs-icons{
+        gap: 36px;
+    }
+    .mytech-content{
+        margin-bottom: 45px;
+    }
+    .mytechs-icons2{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 36px;
+    }
+}
 
 
