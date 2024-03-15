@@ -13,10 +13,10 @@
 
 <!-- Botões de Acesso -->
 <p align="center">
-  <a href="professional-portfolio-eta-six.vercel.app" target="_blank"><img src="https://img.shields.io/badge/Acesse o Portfólio-Agora!-brightgreen" alt="Acesse o Portfólio" /></a>
-  <a href="https://www.linkedin.com/in/lucas-pedro-fernandes/" target="_blank"><img src="https://img.shields.io/badge/Contato via LinkedIn-blue" alt="LinkedIn" /></a>
-  <a href="https://github.com/LucasPedro123" target="_blank"><img src="https://img.shields.io/badge/Confira o GitHub de Lucas Pedro-blueviolet" alt="GitHub" />
-</a>
+  <a href="https://professional-portfolio-eta-six.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Acesse o Portfólio-Agora!-brightgreen" alt="Acesse o Portfólio" /></a>
+  <a href="https://www.linkedin.com/in/lucas-pedro-fernandes/" target="_blank"><img src="https://img.shields.io/badge/Contato via LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/LucasPedro123" target="_blank"><img src="https://img.shields.io/badge/Confira o GitHub de Lucas Pedro-333?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.figma.com/file/E8bQmZbgB2rX1vx5A4vM42/Untitled?type=design&mode=design&t=Q5lUq6OOqh0jxWzl-0" target="_blank"><img src="https://img.shields.io/badge/Confira o Projeto no Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" /></a>
 </p>
 
 <!-- Visão Geral -->
