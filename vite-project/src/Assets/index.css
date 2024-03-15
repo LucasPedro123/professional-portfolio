@@ -5,3 +5,20 @@
     font-family: 0;
     font-family:'Roboto'"Outfit", Arial, Helvetica, sans-serif;
 } 
+
+i{
+    color: var(--primary);
+    transition: transform 0.8s ease;
+}
+i:hover{
+    color: var(--secundary);
+    transform: translateY(-8px) scale(1.2);
+  }
+
+  img{
+    transition: transform 0.8s ease;
+  }
+
+  img:hover{
+    transform: scale(1.02);
+  }

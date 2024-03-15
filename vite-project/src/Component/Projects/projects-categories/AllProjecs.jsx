@@ -9,14 +9,14 @@ import './all-style.css'
 
 const projects = [
   {
-    link: "https://previsao-do-temp.netlify.app/",
-    name: "Clima agora",
-    img: weatherNowProjectImg
-  },
-  {
     link: "https://le-scone-gourmet.netlify.app/",
     name: "Le Scone",
     img: lesconeProjectImg
+  },
+  {
+    link: "https://previsao-do-temp.netlify.app/",
+    name: "Clima agora",
+    img: weatherNowProjectImg
   },
   {
     link: "https://app.powerbi.com/view?r=eyJrIjoiYTJmOWMyNGUtYzU4Mi00NGNkLWJmYmYtOGFjMDY0MjVjZmI5IiwidCI6ImIxMDUxYzRiLTNiOTQtNDFhYi05NDQxLWU3M2E3MjM0MmZkZCJ9",
