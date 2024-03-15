@@ -73,6 +73,21 @@
     margin-top: 55px;
 }
 
+@media screen and (max-width: 1024px){
+    .section-projects-content{
+        margin-left: 0px;
+    }
+    .section-projects-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .section-project-texts{
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 768px){
    .section-projects{

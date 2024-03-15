@@ -1,6 +1,6 @@
 .main-container{
     display: flex;
-    height: 80%;
+    height: 100%;
 }
 .main-content{
     width: 100%;
@@ -67,22 +67,70 @@
   }
 
 
-@media screen and (max-width: 768px){
+
+
+@media screen and (max-width: 1024px){
     .main-container{
-        height: 85vh;
+        height: 100%;
     }
     .main-wrapper{
         flex-direction: column;
     }
     .main-title{
         font-weight: 900;
-        font-size: 45px;
-        line-height: 40px;
+        font-size: 4.5em;
+        line-height: 1em;
     }
     .main-texts{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .main-title-p{
+        font-weight: 500;
+        font-size: 2em;
+        line-height: 18px;
+        /* identical to box height */
+    }
+
+    .main-btn{
+        /* Button */
+        margin-top: 28px;
+        width: 349px;
+        height: 57px;
+        /* Saiba mais sobre mim */
+        padding: 0px 0px;
+        
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 21px;
+        text-align: center;
+        color: var(--white-main);
+    }
+
+    .main-icons{
+        margin-top: 28px;
+        text-align: center;
+    }
+    .main-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-image img{
+        width: 100%;
+        max-width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+  
+    .main-title{
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 40px;
     }
     .main-title-p{
         font-weight: 500;
@@ -93,17 +141,13 @@
 
     .main-btn{
         /* Button */
-        margin-top: 28px;
         width: 249px;
         height: 47px;
         /* Saiba mais sobre mim */
         padding: 0px 0px;
         
-        font-family: 'Roboto';
-        font-weight: 900;
         font-size: 18px;
         line-height: 21px;
-        text-align: center;
         color: #FFFFFF;
     }
 
