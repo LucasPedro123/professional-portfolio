@@ -19,7 +19,7 @@ function MyTechs() {
                 </div>
             </div>
 
-            <div>
+            <div className='mytechs-wrapper'>
                 <p>Tecnologias</p>
                 <h2 className='mytechs-subtitle'>Atualmente <span>Desenvolvendo</span></h2>
                 <div className='mytechs-icons2'>
