@@ -46,7 +46,7 @@ footer{
 
 .experience-box{
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     height: 250px;
     background: var(--secundary);
     border-radius: 20px;
@@ -111,7 +111,34 @@ footer{
 .phrase-author{
     margin-bottom: 70px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+    .footer-texts{
+        margin-right: 0px;
+        align-items: center;
+        flex-direction:column-reverse;
+        text-align: center;
+        gap: 8px;
+        p{
+            text-align: center;
+        }
+    }
+
+    .experience-box:nth-last-child(2){
+        margin-top: 20px;
+    }
+    .experience-content{
+        margin-top: 140px;
+    }
+    .experience-box{
+        margin-top: 20px;
+    }
+
+    .phrase-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
     .footer-texts{
         margin-right: 0px;
         align-items: center;

@@ -7,6 +7,12 @@ import Projects from "./Component/Projects/Projects-component";
 import MyTechs from "./Component/MyTechs/MyTechs-component";
 import Experience from "./Component/Experience/Experience-component";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
+
+
+
 function App() {
 
   return (
