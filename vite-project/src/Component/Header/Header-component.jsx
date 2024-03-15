@@ -6,7 +6,7 @@ function Header() {
       <header className='header-container'>
             <div className='header-content'>
                 <i className='icon' class="fa-solid fa-rectangle-code fa-3x"></i>
-                <h1 className='header-title'>Matheus Campos</h1>
+                <h1 className='header-title' data-aos="fade-down">Matheus Campos</h1>
             </div>
             <nav className='header-navigate'>
                 <ul className='navigate-items'>
