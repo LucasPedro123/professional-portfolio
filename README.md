@@ -84,8 +84,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
    **Contribuição**: [Lucas Correa](https://github.com/lucascorreaa).<br>
 
   Se gostou, não esqueça de deixar uma ⭐️ ou entrar em contato comigo!
-<<<<<<< Updated upstream
+
 </p>
-=======
-</p>
->>>>>>> Stashed changes
+
