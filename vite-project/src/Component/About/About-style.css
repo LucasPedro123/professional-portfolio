@@ -76,7 +76,6 @@ span{
 
         }
         list-style: none;
-        width: 210px;
         height: 100px;
     }
 }
@@ -86,8 +85,37 @@ li > div{
     justify-content: center;
     
 }
+@media screen and (max-width: 1024px){
+    .about-content img{
+        width: 100%;
+        max-width: 300px;
+    }
+    .about-title{
+        font-weight: 900;
+        font-size: 87px;
+        line-height: 55px;
+    }
+    .about-text{
+        margin-top: 50px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 35px;
+        display: flex;
+        font-feature-settings: 'pnum' on, 'onum' on;
+        text-align: center;
+    }
 
-@media screen and (max-width: 768px){
+    .about-skills{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 210px));
+        li{
+            margin-bottom: 30px;
+        }
+    }
+   
+}
+
+@media screen and (max-width: 767px){
     .about-title{
         font-weight: 900;
         font-size: 47px;

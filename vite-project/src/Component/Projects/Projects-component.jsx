@@ -33,11 +33,11 @@ function Projects() {
     return (
         <section className='section-projects'>
             <div className='section-projects-content'>
-                <div className='section-project-texts'>
+                <div className='section-project-texts' data-aos="fade-right"  data-aos-duration="500">
                     <h1 className='section-project-title'><span>Meu</span><br /> Portfólio</h1>
                     <p className='section-project-subtitle'>Estes são alguns dos trabalhos e <br/>  projetos que já realizei</p>
                 </div>
-                <div className='section-projects-btn'>
+                <div className='section-projects-btn' data-aos="zoom-in">
                     {elements.map(e => (
                         <button
                             className={`projects-btn ${activeButton === e.label ? 'active' : ''}`} // Adicionando classe 'active' se o botão estiver ativo
@@ -51,9 +51,9 @@ function Projects() {
                             {e.label}
                         </button>
                     ))}
-                </div>
+                </div >
                 {/* Aqui é onde aparece os elementos */}
-                <article className='projects-images'>
+                <article className='projects-images' data-aos="zoom-in">
                     {elementActive}
                 </article>
             </div>

@@ -78,16 +78,21 @@ i{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .header-navigate{
         display: none;
     }
     .header-title{
+        font-size: 3.5em;
+        line-height: 42px;
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-title{
         font-weight: 900;
         font-size: 24px;
         line-height: 28px;
-
-
-
     }
 }

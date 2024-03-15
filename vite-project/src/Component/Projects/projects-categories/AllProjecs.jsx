@@ -44,8 +44,10 @@ function AllProjects() {
     return (
         <div className='img-projects'>
           {
-            projects.map(project => (
-              <img width="100%" key={project.name} src={project.img} alt={project.name} />
+          projects.map(project => (
+              <a href={project.link} target="_blank">
+                <img  width="100%" key={project.name} src={project.img} alt={project.name} />
+              </a>
             ))
           }
         </div>
